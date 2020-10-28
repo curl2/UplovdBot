@@ -2,7 +2,7 @@ import requests as req
 import telebot
 import os
 
-bot = telebot.TeleBot('1314192743:AAG6cPgEweSDZevEO1EUaGCE4f2Rah_6mkk')
+bot = telebot.TeleBot('Your Key')
 @bot.message_handler(content_types=['text'])
 def get_text_messages(message):
     if message.text == "Привет":
