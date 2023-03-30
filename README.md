@@ -4,12 +4,7 @@ For example (@uplovdbot)
 Telegram bot, for upload files on uplovd
 It work on Linux, Windows, MacOs
 
-1. To use it, first create folder:
-> mkdir file
-
-If you have Windows, make folder similarly
-
-1.1 Open _main.py_ and change telegram api key:
+1 Open _main.py_ and change telegram api key:
 ```
 bot = telebot.TeleBot('Your Key')
 ```
